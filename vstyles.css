@@ -1,0 +1,25 @@
+ .container{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .capturedImg{
+    width: 100px;
+    display: none;
+
+ }
+
+ .fingerbox{
+    border: 1px solid gray;
+    align-items: center;
+ }
+
+ .btnReadThumbs{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+ }
+ .btnReadThumbs:hover{
+    background-color: teal;
+ }
